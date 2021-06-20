@@ -1,0 +1,41 @@
+%! Author = asvid
+%! Date = 20/06/2021
+\documentclass{article}
+%\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\geometry{
+    top = 20mm,
+    right = 8cm,
+}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}
+
+\usepackage{svg}
+\usepackage{amsmath}
+
+\lstset{
+    basicstyle=\scriptsize\sffamily\color{black},
+    frame=single,
+    numbers=left,
+    numbersep=5pt,
+    numberstyle=\tiny\color{gray},
+    showspaces=false,
+    showstringspaces=false,
+    tabsize=1
+}
+
+\input{kotlin_def.tex}
+
+\begin{document}
+    The next code will be directly imported from a file
+\lstinputlisting[caption={Simple code listing.}, label={lst:example1}, language=Kotlin]{Simple.kt}
+
+\begin{figure}[htbp]
+    \centering
+    \includesvg{test.svg}
+    \caption{svg image}
+\end{figure}
+\end{document}

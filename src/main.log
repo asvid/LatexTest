@@ -1,0 +1,868 @@
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.20)  20 JUN 2021 19:02
+ system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2021-06-01> patch level 1
+Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/asvid/Library/Application Su
+pport/MiKTeX/texmfs/data/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
+olved path "/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/l
+uatex/luaotfload/fontloader-2021-05-20.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 3.116
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "/Users/asvid/Library/Application Su
+pport/MiKTeX/texmfs/data/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 4
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-06-01>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/article.cls"
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/size10.clo"
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/asvid/Library/Applicati
+on Support/MiKTeX/texmfs/data/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/inputenc.sty"
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ba
+bel/babel.sty"
+Package: babel 2021/06/02 3.60 The Babel package
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ba
+bel/babel.def"
+File: babel.def 2021/06/02 3.60 Babel common definitions
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ba
+bel/luababel.def"
+\bbl@readstream=\read2
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
+)
+\babel@savecnt=\count187
+\U@D=\dimen139
+\l@unhyphenated=\language1
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ba
+bel/luababel.def"
+\bbl@attr@locale=\attribute5
+))
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arab
+i/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babe
+l-english/english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: No hyphenation patterns were set for
+(babel)             language 'english'. Reported on input line 191.
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
+etry/geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count188
+\Gm@cntv=\count189
+\c@Gm@tempcnt=\count190
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks19
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
+etry/geometry.cfg"))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcol
+or/xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-cfg/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-def/luatex.def"
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/dvipsnam.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/list
+ings/listings.sty"
+\lst@mode=\count191
+\lst@gtempboxa=\box50
+\lst@token=\toks20
+\lst@length=\count192
+\lst@currlwidth=\dimen148
+\lst@column=\count193
+\lst@pos=\count194
+\lst@lostspace=\dimen149
+\lst@width=\dimen150
+\lst@newlines=\count195
+\lst@lineno=\count196
+\lst@maxwidth=\dimen151
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/list
+ings/lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count197
+\lst@skipnumbers=\count198
+\lst@framebox=\box51
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/list
+ings/listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/lualatex/p
+lantuml/plantuml.sty"
+Package: plantuml 2020/05/19 v0.3.1 Embed PlantUML diagrams in latex documents.
+
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+frontendlayer/tikz.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgf.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfrcs.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common.tex"
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen152
+\pgfutil@tempdimb=\dimen153
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common-lists.tex"))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-latex.def"
+\pgfutil@abb=\box52
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfrcs.code.tex"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/pgf.revision.tex")
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgfcore.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/graphicx.sty"
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/graphics.sty"
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+)
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+systemlayer/pgfsys.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys.code.tex"
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen156
+\pgf@y=\dimen157
+\pgf@xa=\dimen158
+\pgf@ya=\dimen159
+\pgf@xb=\dimen160
+\pgf@yb=\dimen161
+\pgf@xc=\dimen162
+\pgf@yc=\dimen163
+\pgf@xd=\dimen164
+\pgf@yd=\dimen165
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count199
+\c@pgf@countb=\count266
+\c@pgf@countc=\count267
+\c@pgf@countd=\count268
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count269
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgf.cfg"
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-luatex.def"
+File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count270
+\pgfsyssoftpath@bigbuffer@items=\count271
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcore.code.tex"
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathcalc.code.tex"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathutil.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count272
+\pgfmath@box=\box53
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.code.tex"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.basic.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.trigonometric.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.random.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.comparison.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.base.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.round.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.misc.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.integerarithmetics.code.tex")))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count273
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfint.code.tex")
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count274
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen185
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen189
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen190
+\pgf@sys@shading@range@num=\count275
+\pgf@shadingcount=\count276
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box57
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box58
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgffor.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfkeys.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeys.code.tex"))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+math/pgfmath.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex"))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgffor.code.tex"
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex")
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/frontendlayer/tikz/tikz.code.tex"
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/libraries/pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count277
+\pgfplotmarksize=\dimen195
+)
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikz@lastmovetox=\dimen256
+\tikz@lastmovetoy=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count278
+\tikznumberofchildren=\count279
+\tikznumberofcurrentchild=\count280
+\tikz@fig@count=\count281
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count282
+\pgfmatrixcurrentcolumn=\count283
+\pgf@matrix@numberofcolumns=\count284
+)
+\tikz@expandcount=\count285
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pd
+ftexcmds/pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/in
+fwarerr/infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/lt
+xcmds/ltxcmds.sty"
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks33
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fanc
+yvrb/fancyvrb.sty"
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count286
+\FV@InFile=\read4
+\FV@TabBox=\box63
+\c@FancyVerbLine=\count287
+\FV@StepNumber=\count288
+\FV@OutFile=\write4
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3pa
+ckages/l3keys2e/l3keys2e.sty"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3ke
+rnel/expl3.sty"
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3ba
+ckend/l3backend-luatex.def"
+File: l3backend-luatex.def 2021-05-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count289
+\l__pdf_internal_box=\box64
+))
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3pa
+ckages/xparse/xparse.sty"
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/ifthen.sty"
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adju
+stbox/adjustbox.sty"
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkey
+val/xkeyval.sty"
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xk
+eyval/xkeyval.tex"
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xk
+eyval/xkvutils.tex"
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
+)
+\XKV@depth=\count290
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adju
+stbox/adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adju
+stbox/trimclip.sty"
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/coll
+ectbox/collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box65
+)
+\tc@llx=\dimen260
+\tc@lly=\dimen261
+\tc@urx=\dimen262
+\tc@ury=\dimen263
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adju
+stbox/tc-pgf.def"
+File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+)
+Package trimclip Info: No clipping driver 'tc-luatex.def' available.
+(trimclip)             Using fall-back PGF driver.
+)
+\adjbox@Width=\dimen264
+\adjbox@Height=\dimen265
+\adjbox@Depth=\dimen266
+\adjbox@Totalheight=\dimen267
+\adjbox@pwidth=\dimen268
+\adjbox@pheight=\dimen269
+\adjbox@pdepth=\dimen270
+\adjbox@ptotalheight=\dimen271
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ifod
+dpage/ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count291
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varw
+idth/varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box66
+\sift@deathcycles=\count292
+\@vwid@loff=\dimen272
+\@vwid@roff=\dimen273
+))
+\c@PlantUmlFigureNumber=\count293
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/lualatex/l
+uacode/luacode.sty"
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/luatex/lua
+texbase/luatexbase.sty"
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/luatex/cta
+blestack/ctablestack.sty"
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count294
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+\luacode@lines=\toks36
+\luacode@table@soft=\catcodetable16
+)
+Environment variable PLANTUML_JAR not set.)
+
+! Package Listings Error: Couldn't load requested style.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \lstset{style=mystyle}
+                         
+? y
+
+? 
+
+! Package Listings Error: style mystyle undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \lstset{style=mystyle}
+                         
+? 
+No file main.aux.
+
+\openout1 = main.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+1.
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/ts1cmr.fd"
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+Package babel Info: No hyphenation patterns were set for
+(babel)             language 'english'. Reported on input line 31.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 294.52777pt, 227.62204pt)
+* v-part:(T,H,B)=(56.9055pt, 642.66711pt, 95.39737pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=294.52777pt
+* \textheight=642.66711pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/context/ba
+se/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count295
+\scratchdimen=\dimen274
+\scratchbox=\box67
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen275
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks38
+)
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epst
+opdf-pkg/epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00mi
+ktex/epstopdf-sys.cfg"
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count301
+ (./kotlin_def.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage
+             [dvipsnames]{xcolor}
+? 
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage
+             {listings}
+? 
+
+Overfull \hbox (17.93222pt too wide) in paragraph at lines 32--3
+[]\TU/lmr/m/n/10 The next code will be directly imported from a file [dvipsnames
+]xcolor
+ []
+
+) (./Simple.kt)
+\openout4 = main-plantuml.txt
+
+Environment variable PLANTUML_JAR not set.
+
+! LaTeX Error: File `main-plantuml.latex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: latex)
+
+Enter file name: 
+
+("/Users/asvid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tool
+s/.tex" File ignored) [1
+
+{/Users/asvid/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdfte
+x.map}] (./main.aux
+Package babel Info: No hyphenation patterns were set for
+(babel)             language 'english'. Reported on input line 5.
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 17039 strings out of 478071
+ 100000,662416 words of node,token memory allocated
+ 419 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 48 glue_spec,
+ 5 attribute_list, 2 write nodes
+   avail lists: 2:541,3:45,4:102,5:220,6:18,7:770,9:498
+ 36704 multiletter control sequences out of 65536+600000
+ 28 fonts using 3300831 bytes
+ 117i,5n,115p,640b,947s stack positions out of 5000i,500n,10000p,200000b,80000s
+</Users/asvid/Library/Application Support/MiKTeX/texmfs/install/fonts/opentype/p
+ublic/lm/lmmono8-regular.otf></Users/asvid/Library/Application Support/MiKTeX/te
+xmfs/install/fonts/opentype/public/lm/lmsans8-regular.otf></Users/asvid/Library/
+Application Support/MiKTeX/texmfs/install/fonts/opentype/public/lm/lmsans10-bold
+.otf></Users/asvid/Library/Application Support/MiKTeX/texmfs/install/fonts/opent
+ype/public/lm/lmroman5-regular.otf></Users/asvid/Library/Application Support/MiK
+TeX/texmfs/install/fonts/opentype/public/lm/lmroman10-regular.otf>
+Output written on main.pdf (1 page, 19369 bytes).
+
+PDF statistics: 44 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+

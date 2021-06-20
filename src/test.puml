@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractList
+abstract AbstractCollection
+interface Elo
+interface TestKurwa
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml
