@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{280.32244998bp}%
+    \setlength{\unitlength}{229.89336918bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,23 +50,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.58244822)%
+  \begin{picture}(1,0.71021322)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{test_svg-tex.pdf}}%
-    \put(0.1075902,0.51265752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{AbstractList}\end{tabular}}}}%
+    \put(0.13119104,0.62511334){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{AbstractList}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{test_svg-tex.pdf}}%
-    \put(0.46610591,0.51265752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{AbstractCollection}\end{tabular}}}}%
+    \put(0.56835023,0.62511334){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{AbstractCollection}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{test_svg-tex.pdf}}%
-    \put(0.92093926,0.51265752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{Elo}\end{tabular}}}}%
+    \put(0.21275059,0.20915962){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{Elo}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{test_svg-tex.pdf}}%
-    \put(0.11561667,0.1715325){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{TestKurwa}\end{tabular}}}}%
+    \put(0.48679068,0.27277607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}TimeUnit\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{test_svg-tex.pdf}}%
-    \put(0.45807944,0.22370456){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}TimeUnit\end{tabular}}}}%
+    \put(0.41175589,0.18762922){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DAYS\end{tabular}}}}%
+    \put(0.41175589,0.14536506){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}HOURS\end{tabular}}}}%
+    \put(0.41175589,0.10310054){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MINUTES\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{test_svg-tex.pdf}}%
-    \put(0.39654316,0.15387535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DAYS\end{tabular}}}}%
-    \put(0.39654316,0.11921436){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}HOURS\end{tabular}}}}%
-    \put(0.39654316,0.0845531){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MINUTES\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=7]{test_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%
